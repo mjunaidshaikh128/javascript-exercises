@@ -153,6 +153,8 @@ try {
 } catch (error) {
   console.log(`Type Error: ${error.message}, only applicable to strings`)
 }
+console.log('stil running outside catch block');
+
 
 // TODO: Save deliberately, commit with a clear message, push the branch, and open a pull request
 // into main.
